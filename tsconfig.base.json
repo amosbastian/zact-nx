@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@zact-nx/feature": ["libs/feature/src/index.ts"],
+      "@zact-nx/feature/server": ["libs/feature/src/server.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
